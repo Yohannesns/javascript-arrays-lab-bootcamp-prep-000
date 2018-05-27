@@ -16,17 +16,17 @@ function destructivelyRemoveFirstKitten(name){
   kittens.shift(name)
   return kittens
 }
-function appendKitten(name){
-  return [...kittens,name]
-}
-function prependKitten(name){
-  return [kittens...,name]
-
-}
-function removeLastKitten(name){
-  return kittens.slice(0,kittens.length-2)
-
-}
-function removeFirstKitten(name){
-  return kittens.slice(1,kittens.length-1))
-}
+//function appendKitten(name){
+//  return [...kittens,name]
+//}
+// function prependKitten(name){
+//   return [kittens...,name]
+//
+// }
+// function removeLastKitten(name){
+//   return kittens.slice(0,kittens.length-2)
+//
+// }
+// function removeFirstKitten(name){
+//   return kittens.slice(1,kittens.length-1))
+// }
