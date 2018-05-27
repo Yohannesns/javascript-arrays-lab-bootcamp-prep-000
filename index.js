@@ -23,10 +23,10 @@ function destructivelyRemoveFirstKitten(name){
 //   return [kittens...,name]
 //
 // }
-// function removeLastKitten(name){
-//   return kittens.slice(0,kittens.length-2)
-//
-// }
+ function removeLastKitten(name){
+   return kittens.slice(0,kittens.length-2)
+
+ }
  function removeFirstKitten(name){
    return kittens.slice(1,kittens.length)
  }
